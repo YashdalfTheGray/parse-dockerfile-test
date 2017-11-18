@@ -4,7 +4,8 @@
   "description": "testing the dockerfile-parser package",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "linter": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,11 @@
   },
   "homepage": "https://github.com/YashdalfTheGray/parse-dockerfile-test#readme",
   "dependencies": {
-    "dockerfile-parser": "0.0.0-deprecate"
+    "docker-file-parser": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
   }
 }
