@@ -1,0 +1,27 @@
+{
+  "name": "parse-dockerfile-test",
+  "version": "1.0.0",
+  "description": "testing the dockerfile-parser package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashdalfTheGray/parse-dockerfile-test.git"
+  },
+  "keywords": [
+    "docker",
+    "javascript",
+    "node"
+  ],
+  "author": "YashdalfTheGray",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/YashdalfTheGray/parse-dockerfile-test/issues"
+  },
+  "homepage": "https://github.com/YashdalfTheGray/parse-dockerfile-test#readme",
+  "dependencies": {
+    "dockerfile-parser": "0.0.0-deprecate"
+  }
+}
