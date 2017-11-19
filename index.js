@@ -1,1 +1,2 @@
-const parser = require('docker-file-parser');
+require = require('@std/esm')(module);
+require('./tests.js');
