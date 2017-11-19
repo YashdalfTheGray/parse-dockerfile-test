@@ -4,9 +4,15 @@
   "description": "testing the dockerfile-parser package",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node index.js",
-    "linter": "eslint ."
+    "start": "echo \"Using the first test file\" && npm run test1",
+    "test": "npm start",
+    "linter": "eslint .",
+    "test1": "node index.js ./testfiles/Dockerfile1",
+    "test2": "node index.js ./testfiles/Dockerfile2",
+    "test3": "node index.js ./testfiles/Dockerfile3",
+    "test4": "node index.js ./testfiles/Dockerfile4",
+    "test5": "node index.js ./testfiles/Dockerfile5",
+    "test-all": "npm run test1 && npm run test2 && npm run test3 && npm run test4 && npm run test5"
   },
   "repository": {
     "type": "git",
