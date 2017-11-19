@@ -1,9 +1,9 @@
+import parser from 'docker-file-parser';
+import { readFileSync } from 'fs';
+
 if (!process.argv[2]) {
     throw new Error('no file provided');
 }
-
-import parser from 'docker-file-parser';
-import { readFileSync } from 'fs';
 
 const fileContents = readFileSync(process.argv[2], 'utf-8');
 
