@@ -1,3 +1,7 @@
+# ignore typescript build files
+
+ts/*.d.ts
+ts/*.js
 
 # Created by https://www.gitignore.io/api/osx,node,windows
 
