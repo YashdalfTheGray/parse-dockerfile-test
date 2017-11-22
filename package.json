@@ -2,17 +2,13 @@
   "name": "parse-dockerfile-test",
   "version": "1.0.0",
   "description": "testing the dockerfile-parser package",
-  "main": "js/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "echo \"Using the first test file\" && npm run test1",
+    "prestart": "tsc",
+    "start": "node index.js",
     "test": "npm start",
     "linter": "eslint .",
-    "test1": "node js/index.js ./testfiles/Dockerfile1",
-    "test2": "node js/index.js ./testfiles/Dockerfile2",
-    "test3": "node js/index.js ./testfiles/Dockerfile3",
-    "test4": "node js/index.js ./testfiles/Dockerfile4",
-    "test5": "node js/index.js ./testfiles/Dockerfile5",
-    "test-all": "npm run test1 && npm run test2 && npm run test3 && npm run test4 && npm run test5"
+    "clean-build": "npx rimraf ts/*.d.ts ts/*.js && tsc"
   },
   "repository": {
     "type": "git",
