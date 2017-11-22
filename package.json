@@ -27,6 +27,7 @@
   "homepage": "https://github.com/YashdalfTheGray/parse-dockerfile-test#readme",
   "dependencies": {
     "@std/esm": "^0.16.0",
+    "@types/node": "^8.0.53",
     "docker-file-parser": "^1.0.2",
     "typescript": "^2.6.1"
   },
