@@ -4,7 +4,7 @@ declare module "docker-file-parser" {
         args: string[];
         lineno: number;
         raw: string;
-        error?: Error;
+        error?: string;
     }
 
     export interface ParseOptions {
